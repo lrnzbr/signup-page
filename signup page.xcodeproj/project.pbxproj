@@ -9,19 +9,25 @@
 /* Begin PBXBuildFile section */
 		EB8FCA132034835F00580086 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8FCA122034835F00580086 /* AppDelegate.swift */; };
 		EB8FCA152034835F00580086 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8FCA142034835F00580086 /* ViewController.swift */; };
-		EB8FCA182034835F00580086 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB8FCA162034835F00580086 /* Main.storyboard */; };
 		EB8FCA1A2034835F00580086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB8FCA192034835F00580086 /* Assets.xcassets */; };
 		EB8FCA1D2034835F00580086 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB8FCA1B2034835F00580086 /* LaunchScreen.storyboard */; };
+		EB8FCA25203494C600580086 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8FCA24203494C600580086 /* HeaderView.swift */; };
+		EB8FCA282034A9C200580086 /* SignInToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8FCA272034A9C200580086 /* SignInToggle.swift */; };
+		EB8FCA2A2034ABE600580086 /* SignInPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8FCA292034ABE600580086 /* SignInPane.swift */; };
+		EB8FCA2C2034F32C00580086 /* CreateAccountPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8FCA2B2034F32C00580086 /* CreateAccountPane.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EB8FCA0F2034835F00580086 /* signup page.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "signup page.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8FCA122034835F00580086 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB8FCA142034835F00580086 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EB8FCA172034835F00580086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB8FCA192034835F00580086 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB8FCA1C2034835F00580086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB8FCA1E2034835F00580086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB8FCA24203494C600580086 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		EB8FCA272034A9C200580086 /* SignInToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInToggle.swift; sourceTree = "<group>"; };
+		EB8FCA292034ABE600580086 /* SignInPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPane.swift; sourceTree = "<group>"; };
+		EB8FCA2B2034F32C00580086 /* CreateAccountPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountPane.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +60,12 @@
 		EB8FCA112034835F00580086 /* signup page */ = {
 			isa = PBXGroup;
 			children = (
+				EB8FCA2B2034F32C00580086 /* CreateAccountPane.swift */,
+				EB8FCA292034ABE600580086 /* SignInPane.swift */,
+				EB8FCA272034A9C200580086 /* SignInToggle.swift */,
+				EB8FCA24203494C600580086 /* HeaderView.swift */,
 				EB8FCA122034835F00580086 /* AppDelegate.swift */,
 				EB8FCA142034835F00580086 /* ViewController.swift */,
-				EB8FCA162034835F00580086 /* Main.storyboard */,
 				EB8FCA192034835F00580086 /* Assets.xcassets */,
 				EB8FCA1B2034835F00580086 /* LaunchScreen.storyboard */,
 				EB8FCA1E2034835F00580086 /* Info.plist */,
@@ -125,7 +134,6 @@
 			files = (
 				EB8FCA1D2034835F00580086 /* LaunchScreen.storyboard in Resources */,
 				EB8FCA1A2034835F00580086 /* Assets.xcassets in Resources */,
-				EB8FCA182034835F00580086 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,22 +144,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB8FCA2A2034ABE600580086 /* SignInPane.swift in Sources */,
 				EB8FCA152034835F00580086 /* ViewController.swift in Sources */,
+				EB8FCA25203494C600580086 /* HeaderView.swift in Sources */,
+				EB8FCA2C2034F32C00580086 /* CreateAccountPane.swift in Sources */,
 				EB8FCA132034835F00580086 /* AppDelegate.swift in Sources */,
+				EB8FCA282034A9C200580086 /* SignInToggle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EB8FCA162034835F00580086 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EB8FCA172034835F00580086 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EB8FCA1B2034835F00580086 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
